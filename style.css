@@ -1,0 +1,77 @@
+body {
+    background-color :rgb(43, 43, 43);
+    font-family: Arial, sans-serif;
+}
+.calculator{
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    background-color: #36474f;
+    border-radius: 8px 8px 0px 0px ;
+    align-items: end;
+    overflow: hidden;
+}
+.head h1{
+    padding-left: 10px;
+    padding-right: 180px;
+    padding-bottom: 50px;
+}
+.head hr{
+    width: 13%;
+    height: 2px;
+    border-radius: 2px;
+    background-color: white;
+    opacity: 0.5;
+}
+.display{
+    font-size: 40px;
+    padding-right: 10px;
+    padding-bottom: 35px;
+}
+.result{
+    font-size: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.mainbody{
+    background-color: #18212a;
+    width: 347px;
+    border-radius: 0px 0px 8px 8px;
+}
+.mainbody ul{
+    list-style-type: none;
+    margin-right: 5vh;
+    margin-bottom: 5vh;
+    margin-top: 4vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap : 4vh
+}
+.mainbody ul li{
+    font-size: 25px;
+    height: 30px;
+    width: 30px;
+    
+}
+.mainbody ul li button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    opacity: 0.8;
+    color: black;
+    background-color: grey;
+    border: none;
+
+}
+.mainbody ul li button:active{
+    background-color: rgb(50, 50, 50);
+}
